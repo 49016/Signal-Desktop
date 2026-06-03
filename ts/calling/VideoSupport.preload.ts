@@ -184,6 +184,7 @@ export class GumVideoCapturer {
         max: options.maxFramerate,
         ideal: options.maxFramerate,
       },
+      aspectRatio: { ideal: 16 / 9 },
     };
 
     try {
